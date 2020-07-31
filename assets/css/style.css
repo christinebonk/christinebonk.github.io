@@ -57,6 +57,10 @@ p {
 	font-size: 2rem;
 }
 
+section {
+	height: 100vh;
+}
+
 /*Header Styles*/
 
 header {
@@ -84,7 +88,6 @@ header p {
 
 #portfolio {
 	position: relative;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	background: #FFF8F0;
@@ -258,7 +261,6 @@ div.button-border {
 
 #contact-me {
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../images/background2.png);
-	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
