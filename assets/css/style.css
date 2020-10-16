@@ -81,16 +81,8 @@ header p {
 	margin: 0;
 }
 
-/*Resume Styles*/
 
-#resume {
-	background: #465032;
-}
 
-#resume h2 {
-	padding-top: 70px;
-	color: #FFF8F0;
-}
 
 /*Portfolio Styles*/
 
@@ -209,6 +201,7 @@ figcaption {
 
 .header-bottom {
 	padding: 50px 50px 0px;
+	display: flex;
 }
 
 .portfolio-bottom {
@@ -255,6 +248,7 @@ div.button-border {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 10px;
 }
 
 /*Triange*/
@@ -406,7 +400,16 @@ div.button-border {
 
 }
 
-/* Portfolio Styles */
+/* Product Styles */
+
+#product {
+	background: #465032;
+}
+
+#product h2 {
+	padding-top: 70px;
+	color: #FFF8F0;
+}
 
 .product {
 	margin: 5px;
@@ -435,7 +438,6 @@ p.product-description {
 	padding: 10px;
 	text-align: center;
 }
-
 
 
 #product-container {
